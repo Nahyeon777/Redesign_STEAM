@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STEAM에 오신 것을 환영합니다.</title>
+    <link rel="shortcut icon" href="images/steam logo.png" type="image/x-icon">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/index.css">
+
+    <!-- noto-sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <script>
+        AOS.init();
+    </script>
+
+    <div class="header">
+        <div class="video">
+            <video id="bg_video" autoplay muted loop volome="0" data-autoplay>
+                <source src="video/Comp 2.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="nav">
+            <div class="nav-wrap">
+                <div class="nav-menu">
+                    <ul>
+                        <li id="m-nav">
+                            <div class="line"></div>
+                            <div class="line"></div>
+                            <div class="line"></div>
+                        </li>
+                        <li id="logo"><a href="index.html"><img src="images/steam logo.png" alt=""></a></li>
+                        <li class="nav-name">
+                            <a href="#">STAEM</a>
+                            <div class="sub-menu">
+                                <ul>
+                                    <li><a href="#">about</a></li>
+                                    <li><a href="#">discovery queue</a></li>
+                                    <li><a href="#">news</a></li>
+                                    <li><a href="#">stars</a></li>
+                                </ul>
+                            </div>                                
+                        </li>
+                        <li class="nav-name">
+                            <a href="#">NEW &amp; NOTEWORTH</a>
+                            <div class="sub-menu">
+                                <ul>
+                                    <li><a href="#">top sellers</a></li>
+                                    <li><a href="#">most played</a></li>
+                                    <li><a href="#">news&amp;trending</a></li>
+                                    <li><a href="#">special offers</a></li>
+                                    <li><a href="#">recently updated</a></li>
+                                    <li><a href="#">popular upcoming</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-name">
+                            <a href="#">COMMUNITY</a>
+                            <div class="sub-menu">
+                                <ul>
+                                    <li><a href="#">discussions</a></li>
+                                    <li><a href="#">workshop</a></li>
+                                    <li><a href="#">market</a></li>
+                                    <li><a href="#">broadcasts</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="etc">
+                    <ul>
+                        <!-- 글로벌 -->
+                        <li class="global"><a href="#"> <img src="images/global.png" alt=""></a></li>
+                        <li class="sign"><a href="#">SIGN IN</a></li>
+                        <li class="sign"><a href="#">SIGN UP</a></li>
+                        <!-- 검색 -->
+                        <li class="search"><a href="#"></a></li>
+                        <!-- 카테고리 -->
+                        <li class="cate"><a href="#"></a></li>
+                    </ul>
+                </div>
+                <div class="cate-menu">
+                    <div class="close">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                    <div class="content">
+                        <div class="left">
+                            <div class="special">
+                                <p>SPECIAL SECTIONS</p>
+                                <ul class="game-item">
+                                    <li><a href="#">Free to Play</a></li>
+                                    <li><a href="#">Demos</a></li>
+                                    <li><a href="#">Early Access</a></li>
+                                    <li><a href="#">Controller-Friendly</a></li>
+                                    <li><a href="#">Remote Play</a></li>
+                                    <li><a href="#">Software</a></li>
+                                    <li><a href="#">Soundtracks</a></li>
+                                    <li><a href="#">VR Titles</a></li>
+                                    <li><a href="#">VR Hardware</a></li>
+                                    <li><a href="#">Steam Deck</a></li>
+                                    <li><a href="#">Greaton Deck</a></li>
+                                    <li><a href="#">mac Os</a></li>
+                                    <li><a href="#">Steam OS+Linnx</a></li>
+                                    <li><a href="#">For PC Cafes</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="mid">
+                            <div class="genres">
+                                <p>GENRES</p>
+                                <ul class="genres-content">
+                                     <li class="g-left">
+                                        <ul class="game-item">
+                                            <li><a href="#">Action</a></li>
+                                            <li><a href="#">Action Rogue-Like</a></li>
+                                            <li><a href="#">Arcade&Rhythm</a></li>
+                                            <li><a href="#">Fighting&Martial</a></li>
+                                            <li><a href="#">First-Person-Shooter</a></li>
+                                            <li><a href="#">Hack&Slash</a></li>
+                                            <li><a href="#">Platformer&Runner</a></li>
+                                            <li><a href="#">Third-Person Shooter</a></li>
+                                            <li><a href="#">Adventure</a></li>
+                                            <li><a href="#">Advneture RPG</a></li>
+                                            <li><a href="#">Casual</a></li>
+                                            <li><a href="#">Hidden Object</a></li>
+                                            <li><a href="#">Metroidvania</a></li>
+                                            <li><a href="#">Puzzle</a></li>
+                                            <li><a href="#">Story-Rich</a></li>
+                                            <li><a href="#">Visual Novel</a></li>
+                                        </ul>
+                                     </li>
+                                     <li class="g-mid">
+                                        <ul class="game-item">
+                                            <li><a href="#">Role-playing</a></li>
+                                            <li><a href="#">Action RPG</a></li>
+                                            <li><a href="#">Adventure RPG</a></li>
+                                            <li><a href="#">JRPG</a></li>
+                                            <li><a href="#">Party-Based</a></li>
+                                            <li><a href="#">Rogue-Like</a></li>
+                                            <li><a href="#">Strategy RPG</a></li>
+                                            <li><a href="#">Turn-Based</a></li>
+                                            <li><a href="#">Simulation</a></li>
+                                            <li><a href="#">Building&Automation</a></li>
+                                            <li><a href="#">Dating</a></li>
+                                            <li><a href="#">Farming&Crafting</a></li>
+                                            <li><a href="#">Hobby&Job</a></li>
+                                            <li><a href="#">Life&Immersive </a></li>
+                                            <li><a href="#">Life&Immersive </a></li>
+                                            <li><a href="#">Space&Flight</a></li>
+                                        </ul>
+                                     </li>
+                                     <li class="g-right">
+                                        <ul class="game-item">
+                                            <li><a href="#">Strategy</a></li>
+                                            <li><a href="#">Card&Board</a></li>
+                                            <li><a href="#">City&Settlement</a></li>
+                                            <li><a href="#">Grand & 4X</a></li>
+                                            <li><a href="#">Military</a></li>
+                                            <li><a href="#">Real-Time Strategy</a></li>
+                                            <li><a href="#">Tower Defense</a></li>
+                                            <li><a href="#">Turn-Based Strategy</a></li>
+                                            <li><a href="#">Sports&Racing</a></li>
+                                            <li><a href="#">All Sports</a></li>
+                                            <li><a href="#">Fishing & Hunting</a></li>
+                                            <li><a href="#">Individual Sports</a></li>
+                                            <li><a href="#">Racing</a></li>
+                                            <li><a href="#">Racing Sim</a></li>
+                                            <li><a href="#">Sports Sim</a></li>
+                                            <li><a href="#">Team Sports</a></li>
+                                        </ul>
+                                     </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="themes">
+                                <p>THEMES</p>
+                                <ul class="game-item">
+                                    <li><a href="#">Anime</a></li>
+                                    <li><a href="#">Horror</a></li>
+                                    <li><a href="#">Mystery&Detective</a></li>
+                                    <li><a href="#">Open World</a></li>
+                                    <li><a href="#">Sci-Fi&Cyberpunk</a></li>
+                                    <li><a href="#">Space</a></li>
+                                    <li><a href="#">Survival</a></li>
+                                </ul>
+                            </div>
+                            <div class="support">
+                                <p>PLAYER SUPPORT</p>
+                                <ul class="game-item">
+                                    <li><a href="#">Co-Operation</a></li>
+                                    <li><a href="#">LAN</a></li>
+                                    <li><a href="#">Local & Party</a></li>
+                                    <li><a href="#">MMO</a></li>
+                                    <li><a href="#">Multiplayer</a></li>
+                                    <li><a href="#">Online Competitive</a></li>
+                                    <li><a href="#">Singleplayer</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="point">
+            <div class="point-wrap">
+                <p>Steam is the ultimate destination for</p>
+                <p>playing, discussing, and creating games.</p>    
+                <div class="download">
+                    <ul>
+                        <li><a href="#">sign up</a></li>
+                        <li><a href="#">install steam</a></li>
+                    </ul>
+                    <div class="also">
+                        <span>Also avail on :</span>
+                        <div class="mac-steam">
+                            <a class="mac" href="#"><img src="images/apple.png" alt="mac"></a>
+                            <a class="steam-download" href="#"><img src="images/steam-white.png" alt="steam"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="new">
+        <div class="new-wrap">
+            <div class="title">
+                <h3>NEW &amp; SPECIAL</h3>
+                <a href="#" class="add"></a>
+            </div>  
+            <div class="content">
+                <div data-aos="fade-up" data-aos-duration="1500" data-aos-once="true" class="item">
+                    <img src="images/pipa.png" alt="pipa">
+                    <div class="txt">
+                        <div class="hover-stick"></div>
+                        <p>PIPA 22</p>
+                        <a href="#">Play now</a>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1500" data-aos-once="true" class="item">
+                    <img src="images/moster-hunter.png" alt="pipa">
+                    <div class="txt">
+                        <div class="hover-stick"></div>
+                        <p>MONSTER HUNTER FRANCHISE</p>
+                        <a href="#">Play now</a>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1500" data-aos-once="true" class="item">
+                    <img src="images/farthest.png" alt="pipa">
+                    <div class="txt">
+                        <div class="hover-stick"></div>
+                        <p>FARTHEST FRONTIER</p>
+                        <a href="#">Play now</a>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1500" data-aos-once="true" class="item">
+                    <a href="#"><img src="images/greenhall.png" alt="pipa"></a>
+                    <div class="txt">
+                        <div class="hover-stick"></div>
+                        <p>GREEN HALL</p>
+                        <a href="#">Play now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="offer">
+        <div class="offer-wrap">
+            <div class="title">
+                <h3>SPECIAL OFFERS</h3>
+                <a href="#" class="add"></a>
+            </div>
+            <div class="content">
+                <div data-aos="fade-up" data-aos-duration="1500" data-aos-once="true" class="item">
+                    <img src="images/cuphead.png" alt="cuphead">
+                    <div class="offer-hover">
+                        <div class="box"></div>
+                        <!-- 가격 -->
+                        <div class="price">
+                            <p class="game-name">cuphead</p>
+                            <p class="sale-rate">- 67%</p>
+                            <p class="sale-price">₩ 14,680</p>
+                            <div class="price-origin">
+                                <p class="origin-price">₩ 44,680</p>
+                            </div>
+                        </div>
+                        <div class="btn">
+                            <a href="#" class="shopping"></a>
+                            <div class="play">
+                                <a href="#">Play now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1500" data-aos-once="true" class="item">
+                    <img src="images/farcry4.png" alt="farcry4">
+                    <div class="offer-hover">
+                        <div class="box"></div>
+                        <!-- 가격 -->
+                        <div class="price">
+                            <p class="game-name">farcry4</p>
+                            <p class="sale-rate">- 67%</p>
+                            <p class="sale-price">₩ 14,680</p>
+                            <div class="price-origin">
+                                <p class="origin-price">₩ 44,680</p>
+                            </div>
+                        </div>
+                        <div class="btn">
+                            <a href="#" class="shopping"></a>
+                            <div class="play">
+                                <a href="#">Play now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1500" data-aos-once="true" class="item">
+                    <img src="images/total-war.png" alt="total-war">
+                    <div class="offer-hover">
+                        <div class="box"></div>
+                        <!-- 가격 -->
+                        <div class="price">
+                            <p class="game-name">total war</p>
+                            <p class="sale-rate">- 67%</p>
+                            <p class="sale-price">₩ 14,680</p>
+                            <div class="price-origin">
+                                <p class="origin-price">₩ 44,680</p>
+                            </div>
+                        </div>
+                        <div class="btn">
+                            <a href="#" class="shopping"></a>
+                            <div class="play">
+                                <a href="#">Play now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1500" data-aos-once="true" class="item">
+                    <img src="images/Crash.png" alt="Crash">
+                    <div class="offer-hover">
+                        <div class="box"></div>
+                        <!-- 가격 -->
+                        <div class="price">
+                            <p class="game-name">crash</p>
+                            <p class="sale-rate">- 67%</p>
+                            <p class="sale-price">₩ 14,680</p>
+                            <div class="price-origin">
+                                <p class="origin-price">₩ 44,680</p>
+                            </div>
+                        </div>
+                        <div class="btn">
+                            <a href="#" class="shopping"></a>
+                            <div class="play">
+                                <a href="#">Play now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="recommend">
+        <div class="recommend-wrap">
+            <div class="title">
+                <h3>RECOMMEND</h3>
+                <span>Get a Steam Game <br>Recommendation!</span>
+            </div>
+            <div class="content variable-width">
+                <div class="item">
+                    <img src="images/fallout4.png" alt="fallout4">
+                    <div class="recommend-hover">
+                        <div class="box"></div>
+                        <div class="game-name">
+                            <p>FALLOUT 4 :<br>Game of the<br> Year Edition</p>
+                        </div>
+                        <div class="btn">
+                            <a href="#" class="shopping"></a>
+                            <div class="play">
+                                <a href="#">Play now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/cultlamb.png" alt="cultlamb">
+                    <div class="recommend-hover">
+                        <div class="box"></div>
+                        <div class="game-name">
+                            <p>Cult of the Lamb</p>
+                        </div>
+                        <div class="btn">
+                            <a href="#" class="shopping"></a>
+                            <div class="play">
+                                <a href="#">Play now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/rust.png" alt="rust">
+                    <div class="recommend-hover">
+                        <div class="box"></div>
+                        <div class="game-name">
+                            <p>RUST</p>
+                        </div>
+                        <div class="btn">
+                            <a href="#" class="shopping"></a>
+                            <div class="play">
+                                <a href="#">Play now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/planetzoo.png" alt="planet-zoo">
+                    <div class="recommend-hover">
+                        <div class="box"></div>
+                        <div class="game-name">
+                            <p>PLANET <br>ZOO</p>
+                        </div>
+                        <div class="btn">
+                            <a href="#" class="shopping"></a>
+                            <div class="play">
+                                <a href="#">Play now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/handwest2.png" alt="handwest2">
+                    <div class="recommend-hover">
+                        <div class="box"></div>
+                        <div class="game-name">
+                            <p>HAND <br>WESTⅡ</p>
+                        </div>
+                        <div class="btn">
+                            <a href="#" class="shopping"></a>
+                            <div class="play">
+                                <a href="#">Play now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/Requiem.png" alt="Requiem">
+                    <div class="recommend-hover">
+                        <div class="box"></div>
+                        <div class="game-name">
+                            <p>A Plague Tale: <br>Requiem</p>
+                        </div>
+                        <div class="btn">
+                            <a href="#" class="shopping"></a>
+                            <div class="play">
+                                <a href="#">Play now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/forgottencity.png" alt="fallout4">
+                    <div class="recommend-hover">
+                        <div class="box"></div>
+                        <div class="game-name">
+                            <p>The <br>Forgotten City</p>
+                        </div>
+                        <div class="btn">
+                            <a href="#" class="shopping"></a>
+                            <div class="play">
+                                <a href="#">Play now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="streaming">
+        <div class="streaming-wrap">
+            <div class="title">
+                <h3>STREAMING</h3>
+                <a href="#" class="add"></a>
+            </div>
+            <div class="content">
+                <div data-aos="fade-up" data-aos-duration="1500" data-aos-once="true" class="item">
+                    <video class="video" src="https://steamcommunity.com/broadcast/watch/76561199153911575" poster="images/video1.png"></video>
+                    <div class="streaming-hover">
+                        <div class="box"></div>
+                        <div class="hover-content">
+                            <p>The Sims™ 4</p>
+                            <!-- live -->
+                            <div class="live">
+                                <div class="circle"></div>
+                                <span>LIVE</span>
+                            </div>
+                            <!-- play-btn -->
+                            <div class="play">
+                                <a href="#">
+                                    <img src="images/Triangle.png" alt="play">
+                                </a>
+                            </div>
+                            <!-- viewers -->
+                            <div class="viewer">
+                                <div class="circle"></div>
+                                <span>5,318</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1500" data-aos-once="true" class="item">
+                    <video class="video" src="#" poster="images/video2.png"></video>
+                    <div class="streaming-hover">
+                        <div class="box"></div>
+                        <div class="hover-content">
+                            <p>The Forgotten City</p>
+                            <!-- live -->
+                            <div class="live">
+                                <div class="circle"></div>
+                                <span>LIVE</span>
+                            </div>
+                            <!-- play-btn -->
+                            <div class="play">
+                                <a href="https://steamcommunity.com/broadcast/watch/76561199177918420">
+                                    <img src="images/Triangle.png" alt="play">
+                                </a>
+                            </div>
+                            <!-- viewers -->
+                            <div class="viewer">
+                                <div class="circle"></div>
+                                <span>5,318</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="finish">
+        <div class="finish-wrap">
+            <h3 data-aos="fade-down" data-aos-duration="1500" data-aos-once="true">LOOKING FOR RECOMMENDATIONS?</h3>
+            <p>Sign to view personalized recommendations.</p>
+            <div class="sign-btn">
+                <ul>
+                    <li><a href="#">SIGN IN</a></li>
+                    <li><a href="#">SIGN UP</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-top">
+            <div class="footer-content">
+                <img src="images/valve.png" alt="valve">
+                <div class="txt">
+                    <span>
+                        © 2022 Valve Corporation. All rights reserved. All trademarks are pro perty of their respective owners in the US and other countries. VAT included in all prices where applicable.    
+                        <span class="etc">Privacy Policy</span>
+                        <span class="etc">Legal</span>
+                        <span class="etc">Steam Subscriber Agreement</span>
+                        <span class="etc">Refunds</span>
+                        <span class="etc">Cookies</span>
+                    </span>
+                </div>
+                <a href="index.html"><img src="images/footer-steam.png" alt="steam"></a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="left">
+                <span>About Value</span>
+                <span>Jobs</span>
+                <span>Steam Distribution</span>
+                <span>Support</span>
+                <span>Gift Cards</span>
+            </div>
+            <div class="right">
+                    <a id="facebook" href="https://www.facebook.com/Steam"></a>
+                    <a id="twitter" href="https://twitter.com/steam"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="fix-menu">
+        <a href="#" class="fix-shopping"></a>
+        <a href="#" class="to-top"></a>
+    </div>
+</body>
+</html>
