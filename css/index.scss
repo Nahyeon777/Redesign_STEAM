@@ -16,6 +16,7 @@ body{
     -ms-user-select:none;
     user-select:none;
     background-color: $main-color;
+    overflow-x: hidden;
 }
 
 h3{font-size: 50px; text-align: center; color: $white; margin-bottom: 90px;}
